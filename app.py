@@ -181,7 +181,7 @@ elif st.session_state.page == 7:
     show_progress()
 
     st.image(
-        ["images/mona.png", "images/gold.jpg"],
+        ["images/mona.png", "images/gold.jpeg"],
         caption=["Soft, atmospheric depth", "Flat, solid background"],
         width=300
     )
@@ -222,6 +222,6 @@ elif st.session_state.page == 8:
     Each choice you made shaped the final image.
 
     Perspective, light, subject, color, gesture, and space all work together
-    to create a visual language. That’s the core of Renaissance painting—
+    to create a visual language. That’s the core of Renaissance painting,
     and now you’ve built your own version of it.
     """)
